@@ -1,0 +1,10 @@
+score = int(input("Enter your exam score: "))
+
+if score >= 80:
+  print("Grade A")
+elif score >= 60:
+  print("Grade B")
+elif score >= 50:
+  print("Grade C")
+else:
+  print("Fail")
